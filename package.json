@@ -4,6 +4,7 @@
   "description": "React and Node app",
   "main": "index.js",
   "scripts": {
+    "start": "node src\\server\\app.js ",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
@@ -19,5 +20,16 @@
   "dependencies": {
     "react": "^15.4.2",
     "react-dom": "^15.4.2"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/diegomadeit/react-node.git"
+  },
+  "keywords": [
+    "node"
+  ],
+  "bugs": {
+    "url": "https://github.com/diegomadeit/react-node/issues"
+  },
+  "homepage": "https://github.com/diegomadeit/react-node#readme"
 }

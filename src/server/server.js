@@ -3,7 +3,7 @@
     const path = require("path");
     const fs = require("fs");
 
-    //resole api handlers
+    //register api handlers
     var normalizedPath = path.join(__dirname, "api");
     var apiHandlers = fs.readdirSync(normalizedPath);
     apiHandlers.forEach(function (handler) {
